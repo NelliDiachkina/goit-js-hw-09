@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers2.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers2.js","sources":["../src/js/2-form.js"],"sourcesContent":["console.log('form');\n"],"names":[],"mappings":"sFAAA,QAAQ,IAAI,MAAM"}

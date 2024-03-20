@@ -27,12 +27,7 @@ function saveFormStateToLocalStorage(e) {
 
 function handlerFormSubmit(e) {
   e.preventDefault();
-  const formData = JSON.parse(localStorage.getItem(localStorageKey));
-
-  if (!formData) {
-    return alert('Please fill in all the fields before submitting');
-  }
-
+  const formData = JSON.parse(localStorage.getItem(localStorageKey)) || {};
   const { email, message } = formData;
 
   if (!email || !message) {

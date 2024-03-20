@@ -30,12 +30,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
-  background-color: #454548;
 }
 
 .nav-list {
   margin: 25px;
-  color: #fff;
 }
 
 .nav-link,
